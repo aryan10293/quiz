@@ -6,3 +6,14 @@
 body{
     text-align: center;
 }
+
+li{
+    margin: 10px auto;
+    border: solid 1px black;
+    width: 10%;
+    list-style: none;
+    padding: 5px;
+}
+li:hover{
+    background: lightgray;
+}
