@@ -32,5 +32,8 @@ function getFetch(){
             console.log(`error ${err}`)
         });
   }
+  alert(` Test your sports knownledge.
+  To select a answer click or touch the answer of your choice.
+  Score will be shown at the end. `)
   getFetch()
 
