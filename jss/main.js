@@ -17,7 +17,7 @@ function getFetch(){
                 console.log(i)
                 i++
                 question(data,i)
-              }else if (9===i) {
+              }else if (i === 9) {
                 document.getElementById('display').innerText = ''
                 alert(`Score ${score}/10`)
               } else {
@@ -32,8 +32,5 @@ function getFetch(){
             console.log(`error ${err}`)
         });
   }
-  alert(` Test your sports knownledge.
-  To select a answer click or touch the answer of your choice.
-  Score will be shown at the end. `)
   getFetch()
 
